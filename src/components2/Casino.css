@@ -1,0 +1,83 @@
+.casino__container {
+    padding: 20px 40px 0px 40px;
+    background-color : #0c122c;
+}
+
+.casino__title {
+    background-image: url('https://tech4gamers.com/wp-content/uploads/2019/10/casino-gaming.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.casino__color {
+    background-color: #0000008c;
+    height: 100%;
+}
+.casino__color > h1 {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    text-shadow: 6px 7px 5px #4a0b84;
+}
+.typed-text {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 6px 7px 5px #4a0b84;
+  }
+
+.typed__effect {
+    margin-top: 20px;
+    padding-left:43%;
+}
+
+.casino__text > h1 {
+    text-align: start;
+    text-transform: uppercase;
+    font-style: bold;
+    color: white;
+    margin: 20px 0;
+}
+
+.casino__text > p {
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: distribute;
+    line-height: 1.9;
+}
+
+ .casino__area {
+     display:flex;
+     margin: 0 80px;
+     margin-top: 10px;   
+} 
+
+.casino__text2 {
+    border-top: 1px solid red;
+    margin-top: 10px;
+}
+
+.casino__text2 > h1 {
+    text-align: start;
+    text-transform: uppercase;
+    font-style: bold;
+    color: white;
+    margin: 20px 0;
+}
+
+.casino__text2 > p {
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: distribute;
+    line-height: 1.9;
+}
+.casino__play {
+    display:flex;
+    margin: 10px 30px;
+    margin-bottom: 50px;
+} 

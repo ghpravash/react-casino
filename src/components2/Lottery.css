@@ -1,0 +1,889 @@
+.lottery {
+    background-color: white;
+}
+.lottery__banner {
+    width: 100%;
+    display: flex;  
+}
+
+.lottery__banner__left{
+    width: 60%;
+    background: #00d6da!important;
+    height: 550px;
+    padding-left: 90px;
+}
+.lottery__banner__left > h3 {
+    color: navy;
+    font-size: 1.1em;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.lottery__banner__left > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin:auto;
+}
+.lottery__banner__left > h3:after{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.lottery__banner__left > h1{
+    padding-top: 10px;
+    color: navy;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: arial black;
+}
+.lottery__banner__left > h1 > sup {
+    padding-left:2px;
+    font-size: 9px;
+}
+.lottery__banner__left__p {
+    padding-top: 70px;
+    font-size: 350%;
+    line-height: 123%;
+    box-sizing: border-box;
+    font-family: Arial Black;
+}
+.lottery__banner__left__p > p {
+    color: #fff;
+    font-kerning: normal;
+    letter-spacing: .03em;
+    word-spacing: .06em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #049ba3, 0 2px 0 #049ba3, 0 3px 0 #049ba3, 0 4px 0 #049ba3, 0 5px 0 #049ba3, 0 6px 0 #00b4be, 
+    0 7px 0 #00b4be, 0 8px 0 #00b4be, 0 9px 0 #00b4be, 0 10px 0 #00b4be, 0 11px 0 #00c8d2, 0 12px 0 #00c8d2, 
+    0 13px 0 #00c8d2, 0 14px 0 #00c8d2, 0 15px 0 #00c8d2;
+}
+
+.lottery__banner__left > button {
+    margin-top: 50px;
+    height: 55px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+    word-spacing: .09em;
+    font-family: arial black;
+    text-transform: uppercase;
+}
+
+.lottery__banner__left > button:hover {
+    background-color: white;
+    color: navy;
+    cursor: pointer;
+}
+
+.lottery__banner__right{
+    width: 40%;
+    background: url('https://media.istockphoto.com/vectors/person-holding-a-winning-lottery-ticket-vector-id1291862179?k=6&m=1291862179&s=612x612&w=0&h=uDeS7iiLZR1ogxh-nrj3x0xJFfXnRtwqn5f7Z8x8u1o=');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.lottery__banner__right__bg{
+    background-color: #3e49dde0;
+    height: 100%; 
+}
+
+.lottery__banner__right__bg > h2 {
+    padding-left: 90px;
+    padding-top: 150px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    word-spacing: .07em;
+    font-family: arial black;
+}
+
+.lottery__banner__right__bg > p {
+    padding-left: 90px;
+    padding-top: 15px;
+    color: white;
+    letter-spacing: .04em;
+    word-spacing: .07em;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.lottery__banner__right__bg > button {
+    margin-left: 90px;
+    margin-top: 40px;
+    height: 55px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: white;
+    color:navy;
+    border: 2px solid navy;
+    word-spacing: .09em;
+    font-family: arial black;
+    text-transform: uppercase;
+}
+
+.lottery__banner__right__bg > button:hover {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+.lottery__banner__right__bg > h3 {
+    margin-left: 99px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 2em;
+    border-bottom: 3px solid whitesmoke;
+    display: inline-block;
+}
+
+.lottery__banner__right__bg > h3:hover {
+    border-bottom: 3px solid navy;
+    cursor: pointer;
+}
+
+
+/**************************** lottery-mid *************************/
+
+.lottery__mid {
+    background-color: white;
+}
+
+.lottery__mid {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 90px;
+}
+
+.lottery__mid > h1 {
+    color: navy;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid navy;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.lottery__squares {
+    display: flex;
+    margin: 20px 0;
+}
+
+/******* squares1 **********************/
+.lottery__squares1 {
+    border: 2px solid #e5013b;
+    border-radius: 15px;
+    height: 440px;
+    width: 350px;
+    margin-right: 50px;
+    background-color: #e5013b;;
+}
+
+.lottery__squares1 > h3 {
+    color: white;
+    font-size: 1.1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.lottery__squares1 > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.lottery__squares1 > h3:after{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lottery__squares1 > h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.lottery__squares1 > h1 > sup {
+    padding-left:2px;
+    font-size: 9px;
+}
+
+.lottery__squares1 > p {
+    text-align: center;
+    padding-top: 60px;
+    text-transform:uppercase;
+    font-family: arial black;
+    font-size: 35px;
+    color: white;
+    line-height: 1.2em;
+}
+
+.lottery__squares1 > h4 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 5px;
+    text-transform:uppercase;
+}
+
+.lottery__squares1 > button {
+    margin-top: 120px;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.lottery__squares1 > button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+}
+
+/****************sqaures2 ********************/
+.lottery__squares2 {
+    border: 2px solid #f8b400!important;
+    border-radius: 15px;
+    height: 440px;
+    width: 350px;
+    margin-right: 50px;
+    background-color: #f8b400!important;
+}
+
+.lottery__squares2 > h3 {
+    color: navy;
+    font-size: 1.1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.lottery__squares2 > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.lottery__squares2 > h3:after{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lottery__squares2 > h1 {
+    color: navy;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.lottery__squares2 > h1 > sup {
+    padding-left:2px;
+    font-size: 9px;
+}
+
+.lottery__squares2 > p {
+    text-align: center;
+    padding-top: 60px;
+    text-transform:uppercase;
+    font-family: arial black;
+    font-size: 35px;
+    color: white;
+    line-height: 1.2em;
+}
+
+.lottery__squares2 > h4 {
+    text-align: center;
+    font-family:sans-serif;
+    color: white;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.lottery__squares2 > button {
+    margin-top: 112px;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.lottery__squares2 > button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+}
+
+/****************sqaures3 ********************/
+.lottery__squares3 {
+    border: 2px solid #bc13ad;;
+    border-radius: 15px;
+    height: 440px;
+    width: 350px;
+    margin-right: 20px;
+    background-color: #bc13ad;;
+}
+
+.lottery__squares3 > h3 {
+    color: white;
+    font-size: 1.1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.lottery__squares3 > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.lottery__squares3 > h3:after{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lottery__squares3 > h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.lottery__squares3 > h1 > sup {
+    padding-left:2px;
+    font-size: 9px;
+}
+
+.lottery__squares3 > p {
+    text-align: left;
+    padding-top: 80px;
+    text-transform:uppercase;
+    font-family:arial black;
+    font-size: 15px;
+    color: white;
+    line-height: 1.2em;
+    padding-left: 10px;
+}
+
+.lottery__squares3 > h4 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: arial black;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.lottery__squares3 > button {
+    margin-top: 125px;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.lottery__squares3 > button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+}
+
+/*******************squares4***************************/
+
+.lottery__squares4 {
+    border: 2px solid #00d24b;
+    border-radius: 15px;
+    height: 440px;
+    width: 344px;
+    margin-right: 50px;
+    background-color: #00d24b;
+}
+
+.lottery__squares4 > h3 {
+    color: navy;
+    font-size: 1.1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.lottery__squares4 > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.lottery__squares4 > h3:after{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lottery__squares4 > h1 {
+    color: navy;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.lottery__squares4 > p {
+    text-align: left;
+    padding-top: 70px;
+    text-transform:uppercase;
+    font-family:arial black;
+    color: white;
+    font-size: 30px;
+    line-height: 1.2em;
+    padding-left: 10px;
+}
+
+.lottery__squares4 > h4 {
+    text-align: left;
+    font-family:sans-serif;
+    color: white;
+    padding-top: 5px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.lottery__squares4 > button {
+    margin-top: 118px;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.lottery__squares4 > button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+}
+
+/*************squares5****************/
+.lottery__squares5 {
+    border: 2px solid #ff8000;
+    border-radius: 15px;
+    height: 440px;
+    width: 342px;
+    margin-right: 40px;
+    background-color: #ff8000;
+}
+
+.lottery__squares5 > h3 {
+    color: white;
+    font-size: 1.1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.lottery__squares5 > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.lottery__squares5 > h3:after{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.lottery__squares5 > h2 {
+    padding-left: 20px;
+    color: navy;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.lottery__squares5 > h1 {
+    color: navy;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    padding-left: 20px;
+    line-height: 0.2em;
+    font-size: 25px;
+    font-family: arial black;
+
+}
+
+.lottery__squares5 > h1 > sup {
+    padding-left:2px;
+    font-size: 9px;
+}
+
+.lottery__squares5 > p {
+    text-align: left;
+    padding-top: 80px;
+    text-transform:uppercase;
+    font-family:arial black;
+    font-size: 15px;
+    color: white;
+    line-height: 1.2em;
+    padding-left: 10px;
+}
+
+.lottery__squares5 > h4 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: arial black;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.lottery__squares5 > button {
+    margin-top: 125px;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.lottery__squares5 > button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+}
+
+/*************squares6****************/
+.lottery__squares6 {
+    border: 2px solid #252fc2;
+    border-radius: 15px;
+    height: 440px;
+    width: 345px;
+    background-color: #252fc2;
+    margin-left: 8px;
+}
+
+.lottery__squares6 > h3 {
+    color: white;
+    font-size: 1.1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.lottery__squares6 > h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.lottery__squares6 > h3:after{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.lottery__squares6 > h2 {
+    padding-left: 20px;
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.lottery__squares6 > h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    padding-left: 20px;
+    line-height: 0.2em;
+    font-size: 25px;
+    font-family: arial black;
+
+}
+
+.lottery__squares6 > h1 > sup {
+    padding-left:2px;
+    font-size: 9px;
+}
+
+.lottery__squares6 > p {
+    text-align: left;
+    padding-top: 80px;
+    text-transform:uppercase;
+    font-family:arial black;
+    font-size: 15px;
+    color: white;
+    line-height: 1.2em;
+    padding-left: 10px;
+}
+
+.lottery__squares6 > h4 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: arial black;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.lottery__squares6 > button {
+    margin-top: 125px;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.lottery__squares6 > button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: navy;
+}
+
+/*******************************dream big ***************************************/
+
+.lottery__dream__big{
+    margin-top:10%;
+    padding-bottom: 10%;
+    margin-left: 19%;
+}
+.dream__big{
+    border: 1px solid #3460f2;
+    width: 80%;
+    position: relative;
+    border-radius: 10px;
+    background-color: #3460f2;
+    color: white;
+}
+.dream__big > h1 {
+    text-align: center;
+    font-family: arial black;
+    margin-top: 50px;
+    margin-bottom: 7px;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: navy;
+}
+.dream__big > p{
+    text-align: center;
+}
+.typed-text-lottery{
+    margin-left: 38%;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.dream__big > h3{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+}
+.dream__big > button{
+    margin-left: 35%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 55px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+    word-spacing: .09em;
+    font-family: arial black;
+    text-transform: uppercase;
+}
+
+.dream__big > button:hover {
+    background-color: white;
+    color: navy;
+    cursor: pointer;
+}
+
+/********************************lottery down ***********************************/
+.lottery__down{
+    background-color: white;
+    margin-right:25px;
+    margin-left:25px;
+    padding-bottom: 60px;
+}
+.lottery__instantwins {
+    border: 1px solid #00d24b;
+    padding-left: 80px;
+    background-color: #00d24b;
+    border-radius: 10px;
+}
+.lottery__instantwins > h3 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    color: navy;
+}
+.lottery__instantwins > h3:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    color: navy;
+}
+.lottery__instantwins > h3:after {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: navy;
+}
+.lottery__instantwins > h2{
+    text-transform: uppercase;
+    font-family: arial black;
+    font-size: 35px;
+    line-height: 1.25em;
+    color: navy;
+}
+
+.lottery__instantwins > h1 {
+    margin-top: 30px;
+    font-family: arial black;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: navy;
+}
+
+/*******************************lottery mania ********************************/
+
+.lotterymania {
+    display: flex;
+    margin-top: 70px;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.lotterymania1 {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.lotterymania__img {
+    border:1px solid linear-gradient(rgb(122, 8, 52), rgb(143, 11, 103));
+    border-radius: 50%;
+    height: 180px;
+    width:180px;
+    text-align: center;
+    background-image: linear-gradient(rgb(122, 8, 52), rgb(143, 11, 103))
+}
+
+.lotterymania__img > img {
+    height: 100px;
+    width: 150px;
+    padding-top: 40px;
+}
+
+.lotterymania1 > h1 {
+    color:navy;
+    font-family: arial black;
+    font-size: 15px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+.lotterymania1 > p {
+    margin-top: 7px;
+    color:white;
+    font-family:monospace;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.lotterymania1 > button {
+    margin-top:13px;
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border:1px solid navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.lotterymania1 > button:hover {
+    color:navy;
+    background-color: white;
+    cursor:pointer;
+}
+
+/***************lottery__thanks*************************/
+.lottery__thanks {
+    background-color: navy;
+    text-align: center;
+
+}
+
+.lottery__thanks > h1{
+    color: white;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.lottery__thanks > h2 {
+    color: white;
+    padding-top: 10px;
+    font-size:20px;
+}
+.lottery__thanks > button {
+    margin-top:13px;
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    border:2px solid white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.lottery__thanks > button:hover {
+    color: navy;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+

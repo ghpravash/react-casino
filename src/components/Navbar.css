@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    padding: 14px 0px;
+    background: #0c122c;
+    width: 100%;
+}
+
+.navbar__left {
+    position: relative;
+    margin: 10px 0;
+    margin-left: 90px;
+    cursor: pointer;
+    
+}
+.navbar__left .navbar__logo {
+    text-shadow: -0.0375em 0 0 #3030301a;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__left .navbar__logo:hover {
+    color: rgb(201, 20, 20);
+}
+
+.navbar__center {
+    width: 600px;
+    align-items: center;
+    cursor: pointer;
+    margin:0 70px;
+}
+
+.navbar__center > ul {
+    display: flex;
+    padding: 14px 0;
+}
+
+.navbar__center > ul > li {
+    color: white;
+    font-size: small;
+    list-style-type: none;
+    font-weight: 1000;
+}
+
+.casino__list {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center; 
+    margin-right: 60px;
+}
+
+.navbar__button1 > button {
+    margin-right: 10px;
+    height: 45px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #cf1f29;
+    color: white;
+    border: 1px solid #cf1f29;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar__button1 > button:hover {
+    color: rgb(185, 11, 40);
+    background-color:#0c122c;
+    cursor: pointer;
+}
+
+/* .navbar__language {
+    height: 40px;
+    width: 120px;
+    background-color:#ffffff73;
+} */
+
+.select {
+    height: 40px;
+    width: 120px;
+    background-color:#ffffff73;
+    padding-left:10px;
+    cursor: pointer;
+}
+
+
+
+
+
